@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+	<meta charset="utf-8">
+	<title>Todo App</title>
+	<link rel="stylesheet" href="styles/index.css">
+	<script src="scripts/index.js" defer></script>
+  </head>
+  <body>
+	<h1 class="center">Todo List</h1>
+	<form class="center">
+		<input type="text" name="newTask" placeholder="タスクを入力(30字以内)">
+		<button type="submit">追加</button>
+	</form>
+	<ul id="taskContainer"></ul>
+	<div class="flex-container">
+		<button id="removeItems" class="center">選択したタスクを<strong>削除</strong></button>
+		<button id="finishItems" class="center">選択したタスクを<strong>完了</strong></button>
+	</div>
+  </body>
+</html>
